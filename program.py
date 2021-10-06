@@ -1,5 +1,5 @@
-value = 100
-value = 10
+from check import Check
+
+check = Check('2')
 print('Hello world')
-print(value)
-print(value)
+print(check.value)
